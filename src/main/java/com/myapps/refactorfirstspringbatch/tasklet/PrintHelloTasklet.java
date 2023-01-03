@@ -16,7 +16,7 @@ public class PrintHelloTasklet implements Tasklet {
 
     @Override
     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) throws Exception {
-        System.out.println(String.format("Hello world, your name is %s!", name));
+        System.out.println(String.format("\n\n\nHello world, your name is %s!\n\n\n", name));
         return RepeatStatus.FINISHED;
     }
 
