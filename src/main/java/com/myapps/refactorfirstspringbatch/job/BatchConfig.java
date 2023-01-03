@@ -20,11 +20,11 @@ public class BatchConfig {
     }
 
     @Bean
-    public Job imprimeOlaJob(Step imprimeOlaStep) {
+    public Job printHelloJob(Step printHelloStep) {
 
         return jobBuilderFactory
-                .get("imprimeOlaJob")
-                .start(imprimeOlaStep)
+                .get("printHelloJob")
+                .start(printHelloStep)
                 .build();
 
     }

@@ -10,13 +10,13 @@ import org.springframework.stereotype.Component;
 
 @Component
 @StepScope
-public class ImprimeOlaTasklet implements Tasklet {
+public class PrintHelloTasklet implements Tasklet {
 
-    @Value("#{jobParameters['nome']}") private String nome;
+    @Value("#{jobParameters['name']}") private String name;
 
     @Override
     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) throws Exception {
-        System.out.println(String.format("Olá mundo, você é %s!", nome));
+        System.out.println(String.format("Hello world, your name is %s!", name));
         return RepeatStatus.FINISHED;
     }
 

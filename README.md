@@ -5,6 +5,7 @@
 
 ## Running
 - Recommended JRE version 17.
+- Command line argument: `name`
 - Run the file `deploy.sh` with: `sh deploy.sh`.
 
 > If you want to change the name in the message, you can change the `JOB_PARAMETER_NAME` variable value inside the file `deploy.sh`.

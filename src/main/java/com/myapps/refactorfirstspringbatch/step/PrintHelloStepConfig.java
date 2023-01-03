@@ -7,19 +7,19 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class ImprimeOlaStepConfig {
+public class PrintHelloStepConfig {
 
     private final StepBuilderFactory stepBuilderFactory;
 
-    public ImprimeOlaStepConfig(StepBuilderFactory stepBuilderFactory) {
+    public PrintHelloStepConfig(StepBuilderFactory stepBuilderFactory) {
         this.stepBuilderFactory = stepBuilderFactory;
     }
 
     @Bean
-    public Step imprimeOlaStep(Tasklet imprimeOlaTasklet) {
+    public Step printHelloStep(Tasklet printHelloTasklet) {
         return stepBuilderFactory
-                .get("imprimeOlaStep")
-                .tasklet(imprimeOlaTasklet)
+                .get("printHelloStep")
+                .tasklet(printHelloTasklet)
                 .build();
     }
 

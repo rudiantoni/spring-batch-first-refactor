@@ -4,15 +4,15 @@ JOB_PARAMETER_NAME="User name"
 
 echo
 echo "Removing previous build files (if any)..."
-sh clear.sh
+sh script/clear.sh
 
 echo
 echo "Compiling..."
-sh build.sh
+sh script/build.sh
 
 echo
 echo "Starting..."
-sh start.sh "$JOB_PARAMETER_NAME"
+sh script/start.sh "$JOB_PARAMETER_NAME"
 
 echo
 echo "Finished successfully."
