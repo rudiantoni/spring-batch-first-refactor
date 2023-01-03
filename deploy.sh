@@ -1,3 +1,4 @@
+#!/bin/sh
 ## VARIABLES
 JOB_PARAMETER_NAME="User name"
 ## VARIABLES

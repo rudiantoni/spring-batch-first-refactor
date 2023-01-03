@@ -1,7 +1,7 @@
 # refactor-first-spring-batch
 - Refactor of the first developed project, with a basic job, step and tasklet working structure.
 - Applied single responsibility.
-- Using in memory H2 Database
+- Using in memory H2 Database.
 
 ## Running
 - Recommended JRE version 17.
