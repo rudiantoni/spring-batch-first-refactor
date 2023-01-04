@@ -3,17 +3,18 @@
 - Applied single responsibility.
 - Using in memory H2 Database.
 
-## Running
-- Required
-    - Operational system Linux Ubuntu or related distros.
+## Requirements
+- Operational system Linux Ubuntu or related distros.
     - Java (JRE/JDK)
         - Recommended JRE version 17.
         - Instructions: [OpenJDK: Download and install](https://openjdk.org/install/)
-- Run the file `deploy.sh` with: `sh deploy.sh`.
-    - INFO command line argument:
-        - `name`
 
-> If you want to change the name in the message, you can change the `JOB_PARAMETER_NAME` variable value inside the file `deploy.sh`.
+## Running
+- Run the file *deploy.sh* with: `sh deploy.sh`.
+    - It uses the following command line argument(s):
+        - name
+
+> If you want to change the name in the message, you can change the **JOB_PARAMETER_NAME** variable value inside the file *deploy.sh*.
 
 Log image with working example:
 - [refactor-first-spring-batch working example](https://imgur.com/a/hQfU6NU)
