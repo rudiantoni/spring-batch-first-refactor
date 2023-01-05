@@ -1,4 +1,4 @@
-# refactor-first-spring-batch
+# spring-batch-first-refactor
 - Refactor of the first developed project, with a basic job, step and tasklet working structure.
 - Applied single responsibility.
 - Using in memory H2 Database.
@@ -17,4 +17,4 @@
 > If you want to change the name in the message, you can change the **JOB_PARAMETER_NAME** variable value inside the file *deploy.sh*.
 
 Log image with working example:
-- [refactor-first-spring-batch working example](https://imgur.com/a/hQfU6NU)
+- [spring-batch-first-refactor working example](https://imgur.com/a/hQfU6NU)
