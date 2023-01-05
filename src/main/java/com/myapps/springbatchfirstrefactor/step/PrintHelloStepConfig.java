@@ -1,4 +1,4 @@
-package com.myapps.refactorfirstspringbatch.step;
+package com.myapps.springbatchfirstrefactor.step;
 
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;

@@ -1,4 +1,4 @@
-package com.myapps.refactorfirstspringbatch.job;
+package com.myapps.springbatchfirstrefactor.job;
 
 
 import org.springframework.batch.core.Job;

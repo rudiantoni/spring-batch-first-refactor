@@ -1,4 +1,4 @@
-package com.myapps.refactorfirstspringbatch.tasklet;
+package com.myapps.springbatchfirstrefactor.tasklet;
 
 import org.springframework.batch.core.StepContribution;
 import org.springframework.batch.core.configuration.annotation.StepScope;

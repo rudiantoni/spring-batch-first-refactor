@@ -1,13 +1,13 @@
-package com.myapps.refactorfirstspringbatch;
+package com.myapps.springbatchfirstrefactor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RefactorFirstSpringBatchApplication {
+public class SpringBatchFirstRefactorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RefactorFirstSpringBatchApplication.class, args);
+		SpringApplication.run(SpringBatchFirstRefactorApplication.class, args);
 	}
 
 }
